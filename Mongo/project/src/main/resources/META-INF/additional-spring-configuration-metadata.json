@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "project.app.expTime",
+    "type": "java.lang.Integer",
+    "description": "A description for 'project.app.expTime'"
+  },
+  {
+    "name": "project.app.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'project.app.secret'"
+  }
+]} 
