@@ -4,6 +4,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
+import com.springboot.mongo.demo.project.Global.MessageResponse;
 import com.springboot.mongo.demo.project.Movie.Movie;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -52,23 +53,19 @@ public class MovieListController {
     }
 
     @PutMapping("/addMovie/{movieListId}/{movieId}")
-    public Map<String, String> addMovie(@PathVariable String movieListId, @PathVariable String movieId) {
+    public MessageResponse addMovie(@PathVariable String movieListId, @PathVariable String movieId) {
 
         movieListService.addMovie(movieListId, movieId);
 
-        Map<String, String> result = Collections.singletonMap("response", "Success");
-
-        return result;
+        return  new MessageResponse("success");
     }
 
     @PutMapping("/deleteMovie/{movieListId}/{movieId}")
-    public Map<String, String> deleteMovie(@PathVariable String movieListId, @PathVariable String movieId) {
+    public MessageResponse deleteMovie(@PathVariable String movieListId, @PathVariable String movieId) {
 
         movieListService.deleteMovieById(movieId, movieListId);
 
-        Map<String, String> result = Collections.singletonMap("response", "Success");
-
-        return result;
+        return  new MessageResponse("success");
     }
 
     @GetMapping("/getListsOrdered")
@@ -84,10 +81,8 @@ public class MovieListController {
     }
 
     @GetMapping("/mostMovies")
-    public Map<String, String> mostMovies() {
+    public MessageResponse mostMovies() {
 
-        Map<String, String> result = Collections.singletonMap("name", movieListService.mostMovies());
-
-        return result;
+        return  new MessageResponse(movieListService.mostMovies());
     }
 }

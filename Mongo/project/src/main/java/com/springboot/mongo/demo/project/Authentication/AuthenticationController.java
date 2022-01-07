@@ -7,9 +7,9 @@ import com.springboot.mongo.demo.project.Authentication.Models.User;
 import com.springboot.mongo.demo.project.Authentication.Models.request.LoginRequest;
 import com.springboot.mongo.demo.project.Authentication.Models.request.SignupRequest;
 import com.springboot.mongo.demo.project.Authentication.Models.response.JwtResponse;
-import com.springboot.mongo.demo.project.Authentication.Models.response.MessageResponse;
 import com.springboot.mongo.demo.project.Authentication.jwt.JwtUtils;
 import com.springboot.mongo.demo.project.Authentication.services.UserDetailsImpl;
+import com.springboot.mongo.demo.project.Global.MessageResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

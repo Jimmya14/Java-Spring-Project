@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MessagesourceApplication<messagesource>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.microservice.message.source.messagesource.MessagesourceApplication",
+            "projectName": "messagesource",
+            "args": ""
+        }
+    ]
+}

@@ -1,8 +1,8 @@
 package com.springboot.mongo.demo.project.Movie;
 
-import java.util.Collections;
 import java.util.List;
-import java.util.Map;
+
+import com.springboot.mongo.demo.project.Global.MessageResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 
 @RestController
 @RequestMapping("/movies")
@@ -42,11 +43,10 @@ public class MovieController {
     }
 
     @DeleteMapping("/{movieId}")
-    public Map<String, String> deleteMovie(@PathVariable String movieId) {
+    public MessageResponse deleteMovie(@PathVariable String movieId) {
         movieService.deleteMovie(movieId);
 
-        Map<String, String> result = Collections.singletonMap("response", "Success");
-
-        return result;
+        return  new MessageResponse("success");
     }
+
 }
