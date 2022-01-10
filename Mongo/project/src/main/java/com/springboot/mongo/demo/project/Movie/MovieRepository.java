@@ -1,4 +1,4 @@
-package com.springboot.mongo.demo.project.Movie;
+package com.springboot.mongo.demo.project.movie;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 

@@ -1,4 +1,4 @@
-package com.springboot.mongo.demo.project.MovieList;
+package com.springboot.mongo.demo.project.movieList;
 
 public class MovieListNotFoundException extends RuntimeException{
     

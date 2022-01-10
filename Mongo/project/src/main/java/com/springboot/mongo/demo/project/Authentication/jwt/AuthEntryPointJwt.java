@@ -1,4 +1,4 @@
-package com.springboot.mongo.demo.project.Authentication.jwt;
+package com.springboot.mongo.demo.project.authentication.jwt;
 
 import java.io.IOException;
 

@@ -1,8 +1,8 @@
-package com.springboot.mongo.demo.project.MovieList;
+package com.springboot.mongo.demo.project.movieList;
 
 import java.util.List;
 
-import com.springboot.mongo.demo.project.Movie.Movie;
+import com.springboot.mongo.demo.project.movie.Movie;
 
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;

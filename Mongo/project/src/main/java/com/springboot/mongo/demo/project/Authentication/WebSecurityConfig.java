@@ -1,8 +1,8 @@
-package com.springboot.mongo.demo.project.Authentication;
+package com.springboot.mongo.demo.project.authentication;
 
-import com.springboot.mongo.demo.project.Authentication.jwt.AuthEntryPointJwt;
-import com.springboot.mongo.demo.project.Authentication.jwt.AuthTokenFilter;
-import com.springboot.mongo.demo.project.Authentication.services.UserDetailsServiceImpl;
+import com.springboot.mongo.demo.project.authentication.jwt.AuthEntryPointJwt;
+import com.springboot.mongo.demo.project.authentication.jwt.AuthTokenFilter;
+import com.springboot.mongo.demo.project.authentication.services.UserDetailsServiceImpl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

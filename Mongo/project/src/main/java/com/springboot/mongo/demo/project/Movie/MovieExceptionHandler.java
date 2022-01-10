@@ -1,6 +1,6 @@
-package com.springboot.mongo.demo.project.Movie;
+package com.springboot.mongo.demo.project.movie;
 
-import com.springboot.mongo.demo.project.Global.ErrorMessage;
+import com.springboot.mongo.demo.project.global.ErrorMessage;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

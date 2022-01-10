@@ -1,4 +1,4 @@
-package com.springboot.mongo.demo.project.MovieList;
+package com.springboot.mongo.demo.project.movieList;
 
 import java.util.List;
 

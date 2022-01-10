@@ -1,4 +1,4 @@
-package com.springboot.mongo.demo.project.Authentication.jwt;
+package com.springboot.mongo.demo.project.authentication.jwt;
 
 import java.io.IOException;
 
@@ -7,7 +7,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.springboot.mongo.demo.project.Authentication.services.UserDetailsServiceImpl;
+import com.springboot.mongo.demo.project.authentication.services.UserDetailsServiceImpl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

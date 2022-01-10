@@ -1,8 +1,8 @@
-package com.springboot.mongo.demo.project.Authentication.jwt;
+package com.springboot.mongo.demo.project.authentication.jwt;
 
 import java.util.Date;
 
-import com.springboot.mongo.demo.project.Authentication.services.UserDetailsImpl;
+import com.springboot.mongo.demo.project.authentication.services.UserDetailsImpl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

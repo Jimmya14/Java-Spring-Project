@@ -1,8 +1,8 @@
-package com.springboot.mongo.demo.project.Authentication;
+package com.springboot.mongo.demo.project.authentication;
 
 import java.util.Optional;
 
-import com.springboot.mongo.demo.project.Authentication.Models.User;
+import com.springboot.mongo.demo.project.authentication.models.User;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 

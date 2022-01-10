@@ -1,4 +1,4 @@
-package com.springboot.mongo.demo.project.Authentication.Models.request;
+package com.springboot.mongo.demo.project.authentication.models.request;
 
 public class LoginRequest {
 

@@ -1,10 +1,10 @@
-package com.springboot.mongo.demo.project.MovieList;
+package com.springboot.mongo.demo.project.movieList;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.springboot.mongo.demo.project.Movie.Movie;
-import com.springboot.mongo.demo.project.Movie.MovieService;
+import com.springboot.mongo.demo.project.movie.Movie;
+import com.springboot.mongo.demo.project.movie.MovieService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

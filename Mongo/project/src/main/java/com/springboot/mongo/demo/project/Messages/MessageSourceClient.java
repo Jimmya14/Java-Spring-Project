@@ -1,4 +1,4 @@
-package com.springboot.mongo.demo.project.Messages;
+package com.springboot.mongo.demo.project.messages;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

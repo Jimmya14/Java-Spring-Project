@@ -1,4 +1,4 @@
-package com.springboot.mongo.demo.project.Authentication.Models.response;
+package com.springboot.mongo.demo.project.authentication.models.response;
 
 public class JwtResponse {
     private String token;

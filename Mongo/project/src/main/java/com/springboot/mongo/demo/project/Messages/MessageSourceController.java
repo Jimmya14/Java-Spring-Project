@@ -1,9 +1,9 @@
-package com.springboot.mongo.demo.project.Messages;
+package com.springboot.mongo.demo.project.messages;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.springboot.mongo.demo.project.Global.MessageResponse;
+import com.springboot.mongo.demo.project.global.MessageResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

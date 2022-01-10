@@ -1,11 +1,11 @@
-package com.springboot.mongo.demo.project.MovieList;
+package com.springboot.mongo.demo.project.movieList;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import com.springboot.mongo.demo.project.Global.MessageResponse;
-import com.springboot.mongo.demo.project.Movie.Movie;
+import com.springboot.mongo.demo.project.movie.Movie;
+import com.springboot.mongo.demo.project.global.MessageResponse;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

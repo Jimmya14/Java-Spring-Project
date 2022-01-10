@@ -1,11 +1,11 @@
-package com.springboot.mongo.demo.project.Authentication.services;
+package com.springboot.mongo.demo.project.authentication.services;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Objects;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.springboot.mongo.demo.project.Authentication.Models.User;
+import com.springboot.mongo.demo.project.authentication.models.User;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

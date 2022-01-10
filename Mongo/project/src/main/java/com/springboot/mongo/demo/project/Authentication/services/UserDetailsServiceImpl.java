@@ -1,7 +1,7 @@
-package com.springboot.mongo.demo.project.Authentication.services;
+package com.springboot.mongo.demo.project.authentication.services;
 
-import com.springboot.mongo.demo.project.Authentication.UserRepository;
-import com.springboot.mongo.demo.project.Authentication.Models.User;
+import com.springboot.mongo.demo.project.authentication.UserRepository;
+import com.springboot.mongo.demo.project.authentication.models.User;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

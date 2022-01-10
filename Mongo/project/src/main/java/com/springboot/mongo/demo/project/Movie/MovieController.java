@@ -1,8 +1,8 @@
-package com.springboot.mongo.demo.project.Movie;
+package com.springboot.mongo.demo.project.movie;
 
 import java.util.List;
 
-import com.springboot.mongo.demo.project.Global.MessageResponse;
+import com.springboot.mongo.demo.project.global.MessageResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;

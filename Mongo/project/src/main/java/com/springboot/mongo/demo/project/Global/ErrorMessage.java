@@ -1,4 +1,4 @@
-package com.springboot.mongo.demo.project.Global;
+package com.springboot.mongo.demo.project.global;
 
 public class ErrorMessage {
 

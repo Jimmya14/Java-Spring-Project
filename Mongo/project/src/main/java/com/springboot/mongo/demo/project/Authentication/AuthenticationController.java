@@ -1,15 +1,15 @@
-package com.springboot.mongo.demo.project.Authentication;
+package com.springboot.mongo.demo.project.authentication;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.springboot.mongo.demo.project.Authentication.Models.User;
-import com.springboot.mongo.demo.project.Authentication.Models.request.LoginRequest;
-import com.springboot.mongo.demo.project.Authentication.Models.request.SignupRequest;
-import com.springboot.mongo.demo.project.Authentication.Models.response.JwtResponse;
-import com.springboot.mongo.demo.project.Authentication.jwt.JwtUtils;
-import com.springboot.mongo.demo.project.Authentication.services.UserDetailsImpl;
-import com.springboot.mongo.demo.project.Global.MessageResponse;
+import com.springboot.mongo.demo.project.authentication.models.User;
+import com.springboot.mongo.demo.project.authentication.models.request.LoginRequest;
+import com.springboot.mongo.demo.project.authentication.models.request.SignupRequest;
+import com.springboot.mongo.demo.project.authentication.models.response.JwtResponse;
+import com.springboot.mongo.demo.project.authentication.jwt.JwtUtils;
+import com.springboot.mongo.demo.project.authentication.services.UserDetailsImpl;
+import com.springboot.mongo.demo.project.global.MessageResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
